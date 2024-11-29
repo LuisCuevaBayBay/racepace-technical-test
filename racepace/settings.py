@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'landing_page',
+    'raceposts',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
