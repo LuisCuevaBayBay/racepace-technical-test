@@ -4,5 +4,5 @@ from .models import RacePost
 class RacePostSerializer(serializers.ModelSerializer):
     class Meta:
         model = RacePost
-        fields = '__all__'
+        fields = ['title', 'distance', 'elevation']
         
